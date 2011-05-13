@@ -11,7 +11,7 @@ package
         {
             stage.addEventListener(KeyboardEvent.KEY_UP, stage_keyUpHandler)
 
-            
+            trace("do something awesome here")
         }
 
         private function stage_keyUpHandler(event:KeyboardEvent):void
